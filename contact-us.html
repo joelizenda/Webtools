@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+              <a href="index.html">Home</a> |
+              <a href="faq.html">FAQs</a> |
+              <a href="gallery.html">Gallery</a> 
+              | 
+              <a href="contact-us.html">Contact Us</a> 
+
+            
+        
+        </nav>
+    </header>
+  
+   <form name="contactForm" method="post" action="mailto:joelizenda@gmail.com">
+    <fieldset>
+      <legend>Contact Us</legend>
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <label>Gender:</label>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      
+      
+      <label>Languages:</label>
+      <label for="english">English</label>
+      <input type="checkbox" id="english" name="languages[]" value="english">
+      <label for="spanish">Spanish</label>
+      <input type="checkbox" id="spanish" name="languages[]" value="spanish">
+      
+      
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+      
+      </select>
+      
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+  </form>
+
+  <table>
+    <caption>Event Schedule</caption>
+    <thead>
+      <tr>
+        <th scope="col">Event</th>
+        <th scope="col">Date</th>
+        <th scope="col">Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Book "IndiraGandhi"</td>
+        <td>October 20, 2023</td>
+        <td>City Hall Auditorium</td>
+      </tr>
+      <tr>
+        <td>Conference</td>
+        <td>November 5, 2023</td>
+        <td>Convention Center</td>
+      </tr>
+      <tr>
+        <td>Lecture on India History</td>
+        <td>December 10, 2023</td>
+        <td>University Hall</td>
+      </tr>
+      <tr>
+        <td>Trip to India-Pakistans</td>
+        <td>January 15, 2024</td>
+        <td>University Hall</td>
+      </tr>
+      <tr>
+        <td>Workshop</td>
+        <td>February 2, 2024</td>
+        <td>Community Center</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
