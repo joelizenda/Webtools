@@ -1,0 +1,30 @@
+.earlylife{
+
+float: right;
+padding: 10px;
+margin: 10px;
+font-size: 20px;
+}
+
+.Parliament{
+    float: right;
+padding: 10px;
+margin: 10px;
+font-size: 20px;
+}
+
+p{
+    clear: right ;
+}
+
+img{
+
+    max-width: 100%;
+    max-height: 180px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
